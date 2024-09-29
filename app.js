@@ -10,6 +10,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   installBtn.style.display = 'block';
 
   installBtn.addEventListener('click', () => {
+    alert(3)
     // 설치 프롬프트 표시
     deferredPrompt.prompt();
 
